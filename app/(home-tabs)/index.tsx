@@ -6,20 +6,20 @@ import { Text } from "@/components/ui/text";
 import React from "react";
 import { ScrollView } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-import { LogIn } from "lucide-react";
+import { LogIn } from "lucide-react-native";
 
 export default function Index() {
   return (
     <SafeAreaProvider>
       <SafeAreaView>
         <ScrollView>
-          <Box
-            className={`flex flex-row justify-between py-4 px-2 items-center bg-[#232C3F]`}
-          >
-            <Text className="font-bold text-typography-0">App Name</Text>
-            <HStack space="md" className="items-center">
-              <Icon as={LogIn} color="#ffffff" />
-              <Text className="font-bold text-typography-0">Log In</Text>
+          <Box className="bg-[#232C3F] py-3 px-2">
+            <HStack className="justify-between w-full">
+              <Text className="font-bold text-typography-0">App Name</Text>
+              <HStack space="md" className="items-center">
+                <Icon as={LogIn} color="#ffffff" />
+                <Text className="font-bold text-typography-0">Log In</Text>
+              </HStack>
             </HStack>
           </Box>
         </ScrollView>
