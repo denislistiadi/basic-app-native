@@ -14,7 +14,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#232C3F"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.buahgiias.basicappnative"
